@@ -1,0 +1,22 @@
+info
+add
+богдан
+994
+276
+25
+27
+FIRE
+CHAOTIC_EVIL
+15
+add
+дора
+100
+69
+60
+22
+UNDERGROUND
+GOOD
+90
+info
+save
+execute_script script.txt
