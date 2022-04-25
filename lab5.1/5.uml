@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/sva89/Desktop/lab5.1</OriginalElement>
+  <nodes>
+    <node x="0.0" y="405.0">commands.RemoveByIdCommand</node>
+    <node x="596.0" y="481.0">util.CommandManager</node>
+    <node x="2360.0" y="481.0">exceptions.NotInDeclaredLimitsException</node>
+    <node x="1514.0" y="670.0">data.DragonType</node>
+    <node x="1397.0" y="481.0">exceptions.WrongAmountOfArgumentsException</node>
+    <node x="0.0" y="670.0">exceptions.DragonNotFoundException</node>
+    <node x="381.0" y="405.0">commands.AddIfMaxCommand</node>
+    <node x="1839.0" y="670.0">run.App</node>
+    <node x="1582.0" y="405.0">commands.SaveCommand</node>
+    <node x="952.0" y="405.0">commands.CountLessThantTypeCommand</node>
+    <node x="1222.0" y="405.0">commands.ShowCommand</node>
+    <node x="271.0" y="670.0">exceptions.MustBeNotEmptyException</node>
+    <node x="2557.0" y="405.0">commands.ExecuteScriptCommand</node>
+    <node x="1054.0" y="670.0">exceptions.HistoryIsEmptyException</node>
+    <node x="798.0" y="670.0">exceptions.ScriptRecursionException</node>
+    <node x="752.0" y="405.0">commands.AddIfMinCommand</node>
+    <node x="1407.5" y="277.0">commands.Command</node>
+    <node x="1918.0" y="405.0">commands.InfoCommand</node>
+    <node x="220.0" y="405.0">commands.ExitCommand</node>
+    <node x="277.0" y="481.0">util.FileManager</node>
+    <node x="2083.0" y="405.0">commands.ClearCommand</node>
+    <node x="541.0" y="670.0">exceptions.NoAccessToFileException</node>
+    <node x="0.0" y="0.0">data.Dragon</node>
+    <node x="2254.0" y="405.0">commands.PrintFieldDescendingTypeCommand</node>
+    <node x="583.0" y="405.0">commands.HelpCommand</node>
+    <node x="2065.0" y="481.0">exceptions.IncorrectInputInScriptException</node>
+    <node x="1738.0" y="481.0">exceptions.WrongAmountOfElementsException</node>
+    <node x="0.0" y="481.0">util.CollectionManager</node>
+    <node x="1015.0" y="481.0">util.Interactor</node>
+    <node x="1309.0" y="670.0">data.DragonCharacter</node>
+    <node x="1397.0" y="405.0">commands.HistoryCommand</node>
+    <node x="1218.0" y="481.0">data.DragonHead</node>
+    <node x="1751.0" y="405.0">commands.AddCommand</node>
+    <node x="2646.0" y="481.0">exceptions.CollectionIsEmptyException</node>
+    <node x="841.0" y="481.0">data.Coordinates</node>
+    <node x="2780.0" y="405.0">commands.UpdateCommand</node>
+    <node x="1690.0" y="670.0">util.Console</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="commands.AddIfMinCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="842.0" y="380.0" />
+      <point x="1479.5" y="380.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="commands.ExecuteScriptCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="2658.5" y="380.0" />
+      <point x="1479.5" y="380.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="commands.AddCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="1824.5" y="380.0" />
+      <point x="1479.5" y="380.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="commands.RemoveByIdCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="100.0" y="380.0" />
+      <point x="1479.5" y="380.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="commands.HistoryCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="commands.InfoCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="1990.5" y="380.0" />
+      <point x="1479.5" y="380.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="commands.SaveCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="1656.5" y="380.0" />
+      <point x="1479.5" y="380.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="commands.HelpCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="657.5" y="380.0" />
+      <point x="1479.5" y="380.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="commands.ShowCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="1299.5" y="380.0" />
+      <point x="1479.5" y="380.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="commands.PrintFieldDescendingTypeCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="2395.5" y="380.0" />
+      <point x="1479.5" y="380.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="commands.UpdateCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="2863.0" y="380.0" />
+      <point x="1479.5" y="380.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="commands.ExitCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="290.5" y="380.0" />
+      <point x="1479.5" y="380.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="commands.ClearCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="2158.5" y="380.0" />
+      <point x="1479.5" y="380.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="commands.AddIfMaxCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="472.0" y="380.0" />
+      <point x="1479.5" y="380.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="commands.CountLessThantTypeCommand" target="commands.Command" relationship="GENERALIZATION">
+      <point x="0.0" y="-15.5" />
+      <point x="1077.0" y="380.0" />
+      <point x="1479.5" y="380.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.43054619015509105" showDependencies="false" x="1473.0" y="350.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
